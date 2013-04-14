@@ -1,6 +1,6 @@
 Simuviz
 =======
-Simuviz is an easy to use is an easy to use image/animation creator which takes advantage of a POV-Ray
+Simuviz is an easy to use image/animation creator which takes advantage of POV-Ray
 (a ray tracer to visualize the data), Python (to process the data) and ImageMagick (to convert the images into an
 animation).<br> <br> Simuviz aims to provide insight on lattice transformation as the environment is modified. 
 Simuviz was developed with the user and freedom of choice in mind, the user is given a handful of options and
