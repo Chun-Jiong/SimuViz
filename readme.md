@@ -4,7 +4,7 @@ Simuviz is an easy to use image/animation creator which takes advantage of POV-R
 (a ray tracer to visualize the data), Python (to process the data) and ImageMagick (to convert the images into an
 animation).<br> <br> Simuviz aims to provide insight on lattice transformation as the environment is modified. 
 Simuviz was developed with the user and freedom of choice in mind, the user is given a handful of options and
-the code is easy enough to understand (given that the user has some knowledge of python) such that the user can edit
+the code is easy to understand (given that the user has some knowledge of python) such that the user can edit
 and make their own changes for any desirable effect POV-Ray has to offer. <br> <br> Developed by [Nathan Shettell] (https://github.com/nshettell),
 with the assistance of [Roger Melko] (https://github.com/rgmelko) and Stephen Inglis.
 <br>
