@@ -1,0 +1,15 @@
+Red
+dimers
+0.1
+0.25
+Green
+dimers
+0.2
+0.25
+no
+N
+2
+1
+centered
+Black
+800x600
