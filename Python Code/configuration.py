@@ -5,7 +5,7 @@ def ini_creator(first_frame,final_frame,res,image_type,pov_name):
 ;Version 3.0
 ;Author: Nathan Shettell
 
-Antialias=Off
+Antialias=On
 Antialias_Threshold=0.1
 Antialias_Depth=2
 Display=Off

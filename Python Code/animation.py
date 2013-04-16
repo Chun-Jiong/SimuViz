@@ -31,7 +31,8 @@ def start(file_info,lattice_info,directory):
     
     #Check to see if the directory already exists, if so stop the program:
     if os.path.isdir(directory):
-        return 'The new directory name requested already exists, please try again'
+        print('The new directory name requested already exists, please try again')
+        return -1
     
     #The files which will be accessed during the script
     f_i=open(file_info,'r') #Data file
@@ -44,6 +45,7 @@ def start(file_info,lattice_info,directory):
     
     #Gather information about the lattice size
     l_info=f_l.readlines()
+    print(l_info)
     #Determine what kind of activity is present
     s_act='#Sites\n' in l_info or '#Sites\r\n' in l_info
     b_act='#Bonds_a\n' in l_info or '#Bonds_a\r\n' in l_info
@@ -321,3 +323,13 @@ Lx*Ly*Lz*Frames*T where T is the total number of objects with activity defined o
     
     return """The program has finished, now just wait til imagemagick finishes converting
 the images to an animation. This can take a while."""
+
+import sys
+
+if __name__ == "__main__":
+    #~ if sys.argc < 4:
+        #~ print("fail")
+    #~ else:
+    print(sys.argv)
+    start(sys.argv[1], sys.argv[2], sys.argv[3])
+    
